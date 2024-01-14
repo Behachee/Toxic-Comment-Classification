@@ -28,29 +28,30 @@ For each ID in the test set, you must predict a probability for the pred variabl
 There are 5 files provided: 3 .csv files for the data and 2 csv files as the labels, across the training, validation and test sets (only the data on the test set). Keep in mind that only 30% of the test set is public (i.e. the score you see on the leaderboard before the deadline), whereas the final leaderboard will be made on the remaining 70%. We also provide you with a baseline.ipynb which provides you with some useful code for datasets, training, and submission preparation.
 
 Files
-test_x.csv
-train_x.csv
-train_y.csv
-val_x.csv
-val_y.csv
-baseline.ipynb
+- test_x.csv
+- train_x.csv
+- train_y.csv
+- val_x.csv
+- val_y.csv
+- baseline.ipynb
+
 Columns
 The first 8 columns represent the 8 demographic groups which we are considering in the computation of the metric. The y column represents the label.
 
-male
-female
-LGBTQ
-christian
-muslim
-other_religions
-black
-white
-identity_any
-severe_toxicity
-obscene
-threat
-insult
-identity_attack
-sexual_explicit
-y --> This is the target variable
+- male
+- female
+- LGBTQ
+- christian
+- muslim
+- other_religions
+- black
+- white
+- identity_any
+- severe_toxicity
+- obscene
+- threat
+- insult
+- identity_attack
+- sexual_explicit
+- y --> This is the target variable
 from_source_domain
