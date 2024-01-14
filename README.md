@@ -24,6 +24,13 @@ This metric consists of calculating both the sensitivity and specificity of the 
 ## Submission File
 For each ID in the test set, you must predict a probability for the pred variable. It is very important for the file to have the correct format, and to pay attention to the ID of the prediction (see baseline notebook). The file should contain a header and have the following format:
 
+## Download Data
+Visit this page for Kaggle API: 
+https://github.com/Kaggle/kaggle-api
+
+Use this command to download the data
+kaggle competitions download -c toxic-comment-classification-dsba-2023
+
 ## Dataset Description
 There are 5 files provided: 3 .csv files for the data and 2 csv files as the labels, across the training, validation and test sets (only the data on the test set). Keep in mind that only 30% of the test set is public (i.e. the score you see on the leaderboard before the deadline), whereas the final leaderboard will be made on the remaining 70%. We also provide you with a baseline.ipynb which provides you with some useful code for datasets, training, and submission preparation.
 
